@@ -1,0 +1,15 @@
+this code is changed for VPP+MTCP
+
+how to install:
+1. first you should change VPP_LITE_PATH to your vpp_lite install path
+2. source EXPOET.sh
+3. cd dpdk-16.11/tools, ./dpdk-setup.sh
+   Press [13] to compile the package
+   Press [16] to install the driver
+   Press [20] to setup 1024 2MB hugepages
+   Press [22] to register the Ethernet ports
+   Press [33] to quit the tool
+4. set the NIC ip address (please make sure that which NIC is bound to DPDK, in    ubuntu system, the NIC will keep the same name as in kernel)
+5. cd apps/example, input ./epserver -p your_web_directory -f epserver.conf -N core_number
+
+if still exists problem, please refer to README to figure out how to install mtcp

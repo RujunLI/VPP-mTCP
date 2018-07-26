@@ -1,0 +1,27 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:158:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_rx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:322:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uword {aka long unsigned int}’ [-Wformat=]
+  printf("i_rx = %d\n", i_rx);
+         ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘mtcp_config’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:514:7: warning: unused variable ‘flags’ [-Wunused-variable]
+   int flags = IFF_TAP | IFF_NO_PI;
+       ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:511:15: warning: unused variable ‘buffer_size’ [-Wunused-variable]
+   const uword buffer_size = VLIB_BUFFER_DATA_SIZE;
+               ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:510:7: warning: unused variable ‘is_enabled’ [-Wunused-variable]
+   int is_enabled = 1, is_ether = 0, have_normal_interface = 1;
+       ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:509:8: warning: unused variable ‘name’ [-Wunused-variable]
+   u8 * name;
+        ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: At top level:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:736:517: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:736:517: note: (near initialization for ‘_vlib_config_function_mtcp_config.function’)
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:531:1: warning: ‘tuntap_config’ defined but not used [-Wunused-function]
+ tuntap_config (vlib_main_t * vm, unformat_input_t * input)
+ ^

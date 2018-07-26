@@ -1,0 +1,14 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:157:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_rx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:292:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+     printf("tm->iovecs[0].iov_len = %d\n", tm->iovecs[0].iov_len);
+            ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:319:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uword {aka long unsigned int}’ [-Wformat=]
+  printf("i_rx = %d\n", i_rx);
+         ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:329:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uword {aka long unsigned int}’ [-Wformat=]
+  printf("n_bytes_left = %d\n", n_bytes_left);
+         ^

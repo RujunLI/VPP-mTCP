@@ -1,0 +1,1 @@
+cmd_/home/lirujun/my_develop/mtcp/dpdk-16.11/x86_64-native-linuxapp-gcc/build/lib/librte_eal/linuxapp/kni/built-in.o :=  rm -f /home/lirujun/my_develop/mtcp/dpdk-16.11/x86_64-native-linuxapp-gcc/build/lib/librte_eal/linuxapp/kni/built-in.o; ar rcsD /home/lirujun/my_develop/mtcp/dpdk-16.11/x86_64-native-linuxapp-gcc/build/lib/librte_eal/linuxapp/kni/built-in.o

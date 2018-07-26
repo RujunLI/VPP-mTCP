@@ -1,0 +1,5 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/node.c: In function ‘ethernet_input_inline’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/node.c:541:117: warning: ‘new_sw_if_index0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/node.c:482:33: note: ‘new_sw_if_index0’ was declared here
+           u32 old_sw_if_index0, new_sw_if_index0, len0;
+                                 ^

@@ -1,0 +1,22 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:156:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_rx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:293:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+     printf("tm->iovecs[%d].iov_len = %d\n", i, tm->iovecs[i].iov_len);
+            ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:319:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uword {aka long unsigned int}’ [-Wformat=]
+  printf("i_rx = %d\n", i_rx);
+         ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:327:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘word {aka long int}’ [-Wformat=]
+  printf("n_bytes_left = %d\n", n_bytes_left);
+         ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:329:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘word {aka long int}’ [-Wformat=]
+  printf("n_bytes_left = %d\n", n_bytes_left);
+         ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:382:13: warning: '0' flag used with ‘%n’ gnu_printf format [-Wformat=]
+      printf("data: %02n", b->data[i]);
+             ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:382:13: warning: field width used with ‘%n’ gnu_printf format [-Wformat=]
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:382:13: warning: format ‘%n’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]

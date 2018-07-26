@@ -1,0 +1,274 @@
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:433:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:433:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:542:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:542:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:626:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:626:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:725:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:725:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:787:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:787:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:809:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:809:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:835:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:835:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:860:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:860:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:879:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:879:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:902:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:902:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:928:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:928:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:949:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:949:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:973:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:973:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:997:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:997:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1015:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1015:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1037:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1037:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1148:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1148:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1167:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1167:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1190:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1190:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1216:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1216:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1236:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1236:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1258:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_ring.h:1258:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:77:0,
+                 from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_memcpy.h:68:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ rte_memcpy(void *dst, const void *src, size_t n) __attribute__((always_inline));
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_memcpy.h:68:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:999:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:999:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1016:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1016:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1044:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1044:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1110:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1110:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1130:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1130:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1151:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1151:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1172:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1172:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1190:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1190:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1208:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1208:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1226:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1226:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1250:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1250:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1332:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1332:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1362:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1362:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1391:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1391:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1420:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1420:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1446:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1446:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1472:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1472:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1498:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mempool.h:1498:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:781:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:781:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:1198:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:1198:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:0:
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:1221:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/mtcp//dpdk-16.11/x86_64-native-linuxapp-gcc//include/rte_mbuf.h:1221:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:176:12: warning: implicit declaration of function ‘rte_mbuf_from_vlib_buffer’ [-Wimplicit-function-declaration]
+       mb = rte_mbuf_from_vlib_buffer(b);
+            ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:176:10: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       mb = rte_mbuf_from_vlib_buffer(b);
+          ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:185:9: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+      mb = rte_mbuf_from_vlib_buffer(b);
+         ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:154:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_init’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:927:44: warning: unused variable ‘cb6’ [-Wunused-variable]
+   ip6_add_del_interface_address_callback_t cb6;
+                                            ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:926:44: warning: unused variable ‘cb4’ [-Wunused-variable]
+   ip4_add_del_interface_address_callback_t cb4;
+                                            ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:925:16: warning: unused variable ‘im6’ [-Wunused-variable]
+   ip6_main_t * im6 = &ip6_main;
+                ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:924:16: warning: unused variable ‘im4’ [-Wunused-variable]
+   ip4_main_t * im4 = &ip4_main;
+                ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: At top level:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:921:1: warning: ‘tuntap_init’ defined but not used [-Wunused-function]
+ tuntap_init (vlib_main_t * vm)
+ ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_init’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:935:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

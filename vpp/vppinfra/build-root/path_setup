@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PATH=/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export CCACHE_DIR=/home/lirujun/my_develop/vpp/build-root/.ccache

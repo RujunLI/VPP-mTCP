@@ -1,0 +1,7 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_rx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:208:7: warning: unused variable ‘flag3’ [-Wunused-variable]
+   int flag3 = 0;
+       ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:206:7: warning: unused variable ‘flag1’ [-Wunused-variable]
+   int flag1 = 0;
+       ^

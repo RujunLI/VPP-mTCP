@@ -1,0 +1,8 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:157:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: At top level:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:924:1: warning: ‘tuntap_init’ defined but not used [-Wunused-function]
+ tuntap_init (vlib_main_t * vm)
+ ^

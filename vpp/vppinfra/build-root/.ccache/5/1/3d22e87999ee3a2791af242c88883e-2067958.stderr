@@ -1,0 +1,33 @@
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:161:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_rx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:246:7: warning: unused variable ‘vec_count’ [-Wunused-variable]
+   int vec_count = 0;
+       ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘mtcp_config’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:513:7: warning: unused variable ‘flags’ [-Wunused-variable]
+   int flags = IFF_TAP | IFF_NO_PI;
+       ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:510:15: warning: unused variable ‘buffer_size’ [-Wunused-variable]
+   const uword buffer_size = VLIB_BUFFER_DATA_SIZE;
+               ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:508:7: warning: unused variable ‘is_enabled’ [-Wunused-variable]
+   int is_enabled = 1, is_ether =1 , have_normal_interface = 1;
+       ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:507:8: warning: unused variable ‘name’ [-Wunused-variable]
+   u8 * name;
+        ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: At top level:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:744:517: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:744:517: note: (near initialization for ‘_vlib_config_function_mtcp_config.function’)
+In file included from /home/lirujun/my_develop/mtcp/mtcp/src/include/socket.h:4:0,
+                 from /home/lirujun/my_develop/mtcp/mtcp/src/include/mtcp.h:14,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:48:
+/home/lirujun/my_develop/mtcp/mtcp/src/include/mtcp_api.h:128:1: warning: inline function ‘mtcp_read’ declared but never defined
+ mtcp_read(mctx_t mctx, int sockid, char *buf, size_t len);
+ ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:539:1: warning: ‘tuntap_config’ defined but not used [-Wunused-function]
+ tuntap_config (vlib_main_t * vm, unformat_input_t * input)
+ ^

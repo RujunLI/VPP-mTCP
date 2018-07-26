@@ -1,0 +1,200 @@
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:433:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:542:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:626:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:725:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:787:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:809:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:835:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:860:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:879:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:902:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:928:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:949:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:973:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:997:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1015:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1037:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1148:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1167:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1190:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1216:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1236:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:35:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_ring.h:1258:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:77:0,
+                 from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_memcpy.h:68:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ rte_memcpy(void *dst, const void *src, size_t n) __attribute__((____always_inline____));
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:999:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1016:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1044:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1110:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1130:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1151:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1172:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1190:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1208:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1226:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1250:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1332:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1362:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1391:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1420:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1446:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1472:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58:0,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:1498:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:781:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:1198:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+In file included from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:0:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:1221:1: warning: ‘____always_inline____’ attribute directive ignored [-Wattributes]
+ {
+ ^
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:157:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^

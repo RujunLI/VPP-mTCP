@@ -1,0 +1,1242 @@
+make[1]: Entering directory '/home/lirujun/my_develop/vpp/build-root'
+@@@@ Arch for platform 'vpp_lite' is native @@@@
+@@@@ Finding source for vppinfra @@@@
+@@@@ Makefile fragment found in /home/lirujun/my_develop/vpp/build-data/packages/vppinfra.mk @@@@
+@@@@ Source found in /home/lirujun/my_develop/vpp/vppinfra @@@@
+@@@@ Arch for platform 'vpp_lite' is native @@@@
+@@@@ Finding source for svm @@@@
+@@@@ Makefile fragment found in /home/lirujun/my_develop/vpp/build-data/packages/svm.mk @@@@
+@@@@ Source found in /home/lirujun/my_develop/vpp/svm @@@@
+@@@@ Arch for platform 'vpp_lite' is native @@@@
+@@@@ Finding source for vlib @@@@
+@@@@ Makefile fragment found in /home/lirujun/my_develop/vpp/build-data/packages/vlib.mk @@@@
+@@@@ Source found in /home/lirujun/my_develop/vpp/vlib @@@@
+@@@@ Arch for platform 'vpp_lite' is native @@@@
+@@@@ Finding source for vlib-api @@@@
+@@@@ Makefile fragment found in /home/lirujun/my_develop/vpp/build-data/packages/vlib-api.mk @@@@
+@@@@ Source found in /home/lirujun/my_develop/vpp/vlib-api @@@@
+@@@@ Arch for platform 'vpp_lite' is native @@@@
+@@@@ Finding source for vnet @@@@
+@@@@ Makefile fragment found in /home/lirujun/my_develop/vpp/build-data/packages/vnet.mk @@@@
+@@@@ Source found in /home/lirujun/my_develop/vpp/vnet @@@@
+@@@@ Arch for platform 'vpp_lite' is native @@@@
+@@@@ Finding source for vpp @@@@
+@@@@ Makefile fragment found in /home/lirujun/my_develop/vpp/build-data/packages/vpp.mk @@@@
+@@@@ Source found in /home/lirujun/my_develop/vpp/vpp @@@@
+@@@@ Configuring vppinfra in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra @@@@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking dependency style of gcc... gcc3
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+@@@@ Building vppinfra in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra'
+  CC       vppinfra/cpu.lo
+  CC       vppinfra/asm_x86.lo
+  CC       vppinfra/backtrace.lo
+  CC       vppinfra/elf.lo
+  CC       vppinfra/elog.lo
+  CC       vppinfra/fheap.lo
+  CC       vppinfra/format.lo
+  CC       vppinfra/fifo.lo
+  CC       vppinfra/error.lo
+  CC       vppinfra/graph.lo
+  CC       vppinfra/hash.lo
+  CC       vppinfra/heap.lo
+  CPPAS    vppinfra/longjmp.lo
+  CC       vppinfra/macros.lo
+  CC       vppinfra/mhash.lo
+  CC       vppinfra/mem_mheap.lo
+  CC       vppinfra/md5.lo
+  CC       vppinfra/pfhash.lo
+  CC       vppinfra/random.lo
+  CC       vppinfra/random_buffer.lo
+  CC       vppinfra/mheap.lo
+  CC       vppinfra/qhash.lo
+  CC       vppinfra/random_isaac.lo
+  CC       vppinfra/serialize.lo
+  CC       vppinfra/phash.lo
+  CC       vppinfra/string.lo
+  CC       vppinfra/std-formats.lo
+  CC       vppinfra/timing_wheel.lo
+  CC       vppinfra/vec.lo
+  CC       vppinfra/unformat.lo
+  CC       vppinfra/slist.lo
+  CC       vppinfra/time.lo
+  CC       vppinfra/smp_fifo.lo
+  CC       vppinfra/elf_clib.lo
+  CC       vppinfra/unix-formats.lo
+  CC       vppinfra/timer.lo
+  CC       vppinfra/unix-misc.lo
+  CC       vppinfra/zvec.lo
+  CC       vppinfra/socket.lo
+  CC       tools/elftool-elftool.o
+  CC       vppinfra/smp.lo
+  CC       vppinfra/vector.lo
+  CCLD     libvppinfra.la
+  CCLD     elftool
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra'
+@@@@ Installing vppinfra @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra'
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libvppinfra.la '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/include'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/include/vppinfra'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/asm_mips.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/asm_x86.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/bihash_8_8.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/bihash_24_8.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/bihash_template.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/bihash_template.c /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/bitmap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/bitops.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/byte_order.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/cache.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/clib.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/cpu.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/elf.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/elf_clib.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/elog.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/fheap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/error.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/error_bootstrap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/fifo.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/format.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/graph.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/hash.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/heap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/longjmp.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/macros.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/math.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/md5.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/mem.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/memcpy_sse3.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/memcpy_avx.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/mhash.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/mheap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/mheap_bootstrap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/os.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/pfhash.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/phash.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/pipeline.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/pool.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/qhash.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/random.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/include/vppinfra'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/include/vppinfra'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/random_buffer.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/random_isaac.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/serialize.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/slist.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/smp.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/smp_fifo.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/socket.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/sparse_vec.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/string.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/time.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/timing_wheel.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/timer.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/types.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/unix.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vec.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vec_bootstrap.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vector.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vector_altivec.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vector_funcs.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vector_iwmmxt.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vector_sse2.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/valgrind.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/vm_unix.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/xxhash.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/xy.h /home/lirujun/my_develop/vpp/build-data/../vppinfra/vppinfra/zvec.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/include/vppinfra'
+libtool: install: /usr/bin/install -c .libs/libvppinfra.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64/libvppinfra.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64 && { ln -s -f libvppinfra.so.0.0.0 libvppinfra.so.0 || { rm -f libvppinfra.so.0 && ln -s libvppinfra.so.0.0.0 libvppinfra.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64 && { ln -s -f libvppinfra.so.0.0.0 libvppinfra.so || { rm -f libvppinfra.so && ln -s libvppinfra.so.0.0.0 libvppinfra.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvppinfra.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64/libvppinfra.la
+libtool: install: /usr/bin/install -c .libs/libvppinfra.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64/libvppinfra.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64/libvppinfra.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64/libvppinfra.a
+libtool: finish: PATH="/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin" ldconfig -n /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/lib64
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c elftool '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/bin'
+libtool: install: /usr/bin/install -c .libs/elftool /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vppinfra/bin/elftool
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vppinfra'
+@@@@ Configuring svm in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm @@@@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: executing libtool commands
+config.status: executing depfiles commands
+@@@@ Building svm in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm'
+  CC       svm.lo
+  CC       ssvm.lo
+  CC       svmdb.lo
+  CC       svmtool.o
+  CC       svmdbtool.o
+  CCLD     libsvmdb.la
+  CCLD     libsvm.la
+  CCLD     svmtool
+  CCLD     svmdbtool
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm'
+@@@@ Installing svm @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm'
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/include'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libsvm.la libsvmdb.la '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../svm/svm.h /home/lirujun/my_develop/vpp/build-data/../svm/ssvm.h /home/lirujun/my_develop/vpp/build-data/../svm/svmdb.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/include/.'
+libtool: install: /usr/bin/install -c .libs/libsvm.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvm.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64 && { ln -s -f libsvm.so.0.0.0 libsvm.so.0 || { rm -f libsvm.so.0 && ln -s libsvm.so.0.0.0 libsvm.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64 && { ln -s -f libsvm.so.0.0.0 libsvm.so || { rm -f libsvm.so && ln -s libsvm.so.0.0.0 libsvm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsvm.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvm.la
+libtool: install: /usr/bin/install -c .libs/libsvmdb.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvmdb.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64 && { ln -s -f libsvmdb.so.0.0.0 libsvmdb.so.0 || { rm -f libsvmdb.so.0 && ln -s libsvmdb.so.0.0.0 libsvmdb.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64 && { ln -s -f libsvmdb.so.0.0.0 libsvmdb.so || { rm -f libsvmdb.so && ln -s libsvmdb.so.0.0.0 libsvmdb.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsvmdb.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvmdb.la
+libtool: install: /usr/bin/install -c .libs/libsvm.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvm.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvm.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvm.a
+libtool: install: /usr/bin/install -c .libs/libsvmdb.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvmdb.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvmdb.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64/libsvmdb.a
+libtool: finish: PATH="/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin" ldconfig -n /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/lib64
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c svmtool svmdbtool '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/bin'
+libtool: install: /usr/bin/install -c .libs/svmtool /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/bin/svmtool
+libtool: install: /usr/bin/install -c .libs/svmdbtool /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/svm/bin/svmdbtool
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/svm'
+@@@@ Configuring vlib in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib @@@@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: executing libtool commands
+config.status: executing depfiles commands
+@@@@ Building vlib in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+make  all-am
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+  CC       vlib/cli.lo
+  CC       vlib/counter.lo
+  CC       vlib/error.lo
+  CC       vlib/format.lo
+  CC       vlib/init.lo
+  CC       vlib/main.lo
+  CC       vlib/mc.lo
+  CC       vlib/node.lo
+  CC       vlib/node_cli.lo
+  CC       vlib/node_format.lo
+  CC       vlib/trace.lo
+  CC       vlib/buffer.lo
+  CC       vlib/threads.lo
+  CC       vlib/unix/main.lo
+  CC       vlib/unix/cj.lo
+  CC       vlib/unix/cli.lo
+  CC       vlib/unix/mc_socket.lo
+  CC       vlib/unix/plugin.lo
+  CC       vlib/unix/input.lo
+  CC       vlib/unix/physmem.lo
+  CC       vlib/unix/pci.lo
+  CC       example/mc_test.o
+  CC       example/main_stub.o
+  CC       vlib/unix/util.lo
+  CCLD     libvlib.la
+  CCLD     libvlib_unix.la
+  CCLD     vlib_unix
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+@@@@ Installing vlib @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+make  install-am
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+make[4]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libvlib.la libvlib_unix.la '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include//home/lirujun/my_develop/mtcp/mtcp/src/include/'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/mtcp/mtcp/src/include//mtcp.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include//home/lirujun/my_develop/mtcp/mtcp/src/include/'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include/vlib/unix'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/unix/cj.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/unix/mc_socket.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/unix/physmem.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/unix/pci.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/unix/plugin.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/unix/unix.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include/vlib/unix'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include/vlib/pci'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/pci/pci.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/pci/pci_config.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include/vlib/pci'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include/vlib'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/buffer_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/buffer_node.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/buffer.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/cli.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/cli_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/config.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/counter.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/defs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/error_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/error.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/format_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/global_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/init.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/main.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/mc.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/node_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/node.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/physmem.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/threads.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/trace_funcs.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/trace.h /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/vlib.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/include/vlib'
+libtool: install: /usr/bin/install -c .libs/libvlib.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64 && { ln -s -f libvlib.so.0.0.0 libvlib.so.0 || { rm -f libvlib.so.0 && ln -s libvlib.so.0.0.0 libvlib.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64 && { ln -s -f libvlib.so.0.0.0 libvlib.so || { rm -f libvlib.so && ln -s libvlib.so.0.0.0 libvlib.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvlib.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib.la
+libtool: install: /usr/bin/install -c .libs/libvlib_unix.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib_unix.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64 && { ln -s -f libvlib_unix.so.0.0.0 libvlib_unix.so.0 || { rm -f libvlib_unix.so.0 && ln -s libvlib_unix.so.0.0.0 libvlib_unix.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64 && { ln -s -f libvlib_unix.so.0.0.0 libvlib_unix.so || { rm -f libvlib_unix.so && ln -s libvlib_unix.so.0.0.0 libvlib_unix.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvlib_unix.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib_unix.la
+libtool: install: /usr/bin/install -c .libs/libvlib.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib.a
+libtool: install: /usr/bin/install -c .libs/libvlib_unix.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib_unix.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib_unix.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64/libvlib_unix.a
+libtool: finish: PATH="/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin" ldconfig -n /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib/lib64
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib'
+@@@@ Configuring vlib-api in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api @@@@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: executing libtool commands
+config.status: executing depfiles commands
+@@@@ Building vlib-api in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+  APIGEN   vlibsocket/sockclnt.api.h
+  APIGEN   vlibmemory/memclnt.api.h
+Output written to vlibsocket/sockclnt.api.h
+Output written to vlibmemory/memclnt.api.h
+make  all-am
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+  CC       vlibapi/api_shared.lo
+  CC       vlibapi/node_serialize.lo
+  CC       vlibmemory/memory_shared.lo
+  CC       vlibmemory/memory_vlib.lo
+  CC       vlibmemory/unix_shared_memory_queue.lo
+  CC       vlibmemory/memory_client.lo
+  CC       vlibsocket/sockclnt_vlib.lo
+  CC       vlibsocket/socksvr_vlib.lo
+  CC       vlibsocket/sock_test.o
+  CCLD     sock_test
+  CCLD     libvlibapi.la
+  CCLD     libvlibmemoryclient.la
+  CCLD     libvlibmemory.la
+  CCLD     libvlibsocket.la
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+@@@@ Installing vlib-api @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+make  install-am
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+make[4]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libvlibapi.la libvlibmemory.la libvlibmemoryclient.la libvlibsocket.la '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include/vlibmemory'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibmemory/api.h /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibmemory/vl_memory_api_h.h /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibmemory/vl_memory_msg_enum.h /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibmemory/unix_shared_memory_queue.h vlibmemory/memclnt.api.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include/vlibmemory'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include/vlibsocket'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibsocket/api.h /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibsocket/vl_socket_api_h.h /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibsocket/vl_socket_msg_enum.h vlibsocket/sockclnt.api.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include/vlibsocket'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include/vlibapi'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vlib-api/vlibapi/api.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/include/vlibapi'
+libtool: install: /usr/bin/install -c .libs/libvlibapi.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibapi.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibapi.so.0.0.0 libvlibapi.so.0 || { rm -f libvlibapi.so.0 && ln -s libvlibapi.so.0.0.0 libvlibapi.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibapi.so.0.0.0 libvlibapi.so || { rm -f libvlibapi.so && ln -s libvlibapi.so.0.0.0 libvlibapi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvlibapi.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibapi.la
+libtool: install: /usr/bin/install -c .libs/libvlibmemory.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemory.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibmemory.so.0.0.0 libvlibmemory.so.0 || { rm -f libvlibmemory.so.0 && ln -s libvlibmemory.so.0.0.0 libvlibmemory.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibmemory.so.0.0.0 libvlibmemory.so || { rm -f libvlibmemory.so && ln -s libvlibmemory.so.0.0.0 libvlibmemory.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvlibmemory.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemory.la
+libtool: install: /usr/bin/install -c .libs/libvlibmemoryclient.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemoryclient.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibmemoryclient.so.0.0.0 libvlibmemoryclient.so.0 || { rm -f libvlibmemoryclient.so.0 && ln -s libvlibmemoryclient.so.0.0.0 libvlibmemoryclient.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibmemoryclient.so.0.0.0 libvlibmemoryclient.so || { rm -f libvlibmemoryclient.so && ln -s libvlibmemoryclient.so.0.0.0 libvlibmemoryclient.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvlibmemoryclient.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemoryclient.la
+libtool: install: /usr/bin/install -c .libs/libvlibsocket.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibsocket.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibsocket.so.0.0.0 libvlibsocket.so.0 || { rm -f libvlibsocket.so.0 && ln -s libvlibsocket.so.0.0.0 libvlibsocket.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64 && { ln -s -f libvlibsocket.so.0.0.0 libvlibsocket.so || { rm -f libvlibsocket.so && ln -s libvlibsocket.so.0.0.0 libvlibsocket.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvlibsocket.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibsocket.la
+libtool: install: /usr/bin/install -c .libs/libvlibapi.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibapi.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibapi.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibapi.a
+libtool: install: /usr/bin/install -c .libs/libvlibmemory.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemory.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemory.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemory.a
+libtool: install: /usr/bin/install -c .libs/libvlibmemoryclient.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemoryclient.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemoryclient.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibmemoryclient.a
+libtool: install: /usr/bin/install -c .libs/libvlibsocket.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibsocket.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibsocket.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64/libvlibsocket.a
+libtool: finish: PATH="/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin" ldconfig -n /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vlib-api/lib64
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vlib-api'
+@@@@ Configuring vnet in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet @@@@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... gcc3
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config/config.h
+config.status: executing libtool commands
+config.status: executing depfiles commands
+@@@@ Building vnet in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet'
+  CC       vnet/config.lo
+  CC       vnet/interface.lo
+  CC       vnet/interface_cli.lo
+  CC       vnet/interface_format.lo
+  CC       vnet/interface_output.lo
+  CC       vnet/misc.lo
+  CC       vnet/replication.lo
+  CC       vnet/rewrite.lo
+  CC       vnet/policer/node_funcs.lo
+  CC       vnet/policer/xlate.lo
+  CC       vnet/policer/policer.lo
+  CC       vnet/cop/cop.lo
+  CC       vnet/cop/node1.lo
+  CC       vnet/cop/ip4_whitelist.lo
+  CC       vnet/cop/ip6_whitelist.lo
+  CC       vnet/ethernet/arp.lo
+  CC       vnet/ethernet/format.lo
+  CC       vnet/ethernet/init.lo
+  CC       vnet/ethernet/interface.lo
+  CC       vnet/ethernet/node.lo
+  CC       vnet/ethernet/pg.lo
+  CC       vnet/l2/l2_bvi.lo
+  CC       vnet/l2/feat_bitmap.lo
+  CC       vnet/l2/l2_bd.lo
+  CC       vnet/l2/l2_efp_filter.lo
+  CC       vnet/l2/l2_fib.lo
+  CC       vnet/l2/l2_flood.lo
+  CC       vnet/l2/l2_fwd.lo
+  CC       vnet/l2/l2_classify.lo
+  CC       vnet/l2/l2_output.lo
+  CC       vnet/l2/l2_input_acl.lo
+  CC       vnet/l2/l2_input_vtr.lo
+  CC       vnet/l2/l2_input.lo
+  CC       vnet/l2/l2_rw.lo
+  CC       vnet/l2/l2_learn.lo
+  CC       vnet/l2/l2_patch.lo
+  CC       vnet/srp/node.lo
+  CC       vnet/l2/l2_output_acl.lo
+  CC       vnet/l2/l2_vtr.lo
+  CC       vnet/srp/format.lo
+  CC       vnet/l2/l2_xcrw.lo
+  CC       vnet/hdlc/pg.lo
+  CC       vnet/llc/pg.lo
+  CC       vnet/srp/interface.lo
+  CC       vnet/snap/snap.lo
+  CC       vnet/srp/pg.lo
+  CC       vnet/snap/node.lo
+  CC       vnet/ppp/pg.lo
+  CC       vnet/snap/pg.lo
+  CC       vnet/vxlan/vxlan.lo
+  CC       vnet/ppp/ppp.lo
+  CC       vnet/hdlc/node.lo
+  CC       vnet/cdp/cdp_periodic.lo
+  CC       vnet/classify/input_acl.lo
+  CC       vnet/llc/llc.lo
+  CC       vnet/ip/adj_alloc.lo
+  CC       vnet/vxlan/encap.lo
+  CC       vnet/llc/node.lo
+  CC       vnet/ip/format.lo
+  CC       vnet/cdp/cdp_input.lo
+  CC       vnet/vxlan/decap.lo
+  CC       vnet/ip/icmp4.lo
+  CC       vnet/ip/icmp6.lo
+  CC       vnet/classify/ip_classify.lo
+  CC       vnet/hdlc/hdlc.lo
+  CC       vnet/ppp/node.lo
+  CC       vnet/ip/ip4_hop_by_hop.lo
+  CC       vnet/ip/ip4_input.lo
+  CC       vnet/ip/ip4_mtrie.lo
+  CC       vnet/cdp/cdp_node.lo
+  CC       vnet/ip/ip4_pg.lo
+  CC       vnet/ip/ip4_format.lo
+  CC       vnet/classify/vnet_classify.lo
+  CC       vnet/ip/ip4_forward.lo
+  CC       vnet/ip/ip4_source_check.lo
+  CC       vnet/ip/ip6_input.lo
+  CC       vnet/ip/ip6_hop_by_hop.lo
+  CC       vnet/ip/ip46_cli.lo
+  CC       vnet/ip/ip6_forward.lo
+  CC       vnet/ip/ip6_format.lo
+  CC       vnet/ip/ip6_neighbor.lo
+  CC       vnet/ip/ip6_pg.lo
+  CC       vnet/ip/udp_init.lo
+  CC       vnet/ip/ip_checksum.lo
+  CC       vnet/ip/udp_pg.lo
+  CC       vnet/ip/ip_init.lo
+  CC       vnet/ip/lookup.lo
+  CC       vnet/ip/udp_format.lo
+  CC       vnet/ip/ip_input_acl.lo
+  CC       vnet/ip/ip_frag.lo
+  CC       vnet/ipsec/ipsec.lo
+  CC       vnet/ip/udp_local.lo
+  CC       vnet/ipsec/ipsec_input.lo
+  CC       vnet/ipsec/ipsec_if.lo
+  CC       vnet/ipsec/ipsec_format.lo
+  CC       vnet/ipsec/ipsec_cli.lo
+  CC       vnet/ipsec/ipsec_if_in.lo
+  CC       vnet/ipsec/ipsec_if_out.lo
+  CC       vnet/ipsec/ikev2_payload.lo
+  CC       vnet/ipsec/ikev2_format.lo
+  CC       vnet/osi/node.lo
+  CC       vnet/ipsec/esp_encrypt.lo
+  CC       vnet/osi/osi.lo
+  CC       vnet/ipsec/esp_decrypt.lo
+  CC       vnet/osi/pg.lo
+  CC       vnet/map/map.lo
+  CC       vnet/ipsec/ipsec_output.lo
+  CC       vnet/ipsec/ikev2.lo
+  CC       vnet/ipsec/ikev2_crypto.lo
+  CC       vnet/gre/gre.lo
+  CC       vnet/map/ip4_map.lo
+  CC       vnet/ipsec/ikev2_cli.lo
+  CC       vnet/map/ip6_map.lo
+  CC       vnet/gre/pg.lo
+  CC       vnet/gre/interface.lo
+  CC       vnet/map/sixrd.lo
+  CC       vnet/gre/node.lo
+  CC       vnet/l2tp/encap.lo
+  CC       vnet/map/ip6_map_t.lo
+  CC       vnet/l2tp/l2tp.lo
+  CC       vnet/l2tp/decap.lo
+  CC       vnet/l2tp/pg.lo
+  CC       vnet/map/ip4_sixrd.lo
+  CC       vnet/map/ip6_sixrd.lo
+  CC       vnet/map/ip4_map_t.lo
+  CC       vnet/mpls-gre/node.lo
+  CC       vnet/mpls-gre/mpls.lo
+  CC       vnet/mpls-gre/interface.lo
+  CC       vnet/mpls-gre/policy_encap.lo
+  CC       vnet/mpls-gre/pg.lo
+  CC       vnet/vxlan-gpe/vxlan_gpe.lo
+  CC       vnet/vxlan-gpe/encap.lo
+  CC       vnet/vxlan-gpe/decap.lo
+  CC       vnet/lisp-cp/control.lo
+  CC       vnet/lisp-cp/gid_dictionary.lo
+  CC       vnet/lisp-cp/lisp_msg_serdes.lo
+  CC       vnet/lisp-cp/packets.lo
+  CC       vnet/lisp-gpe/ip_forward.lo
+  CC       vnet/lisp-gpe/lisp_gpe.lo
+  CC       vnet/lisp-gpe/interface.lo
+  CC       vnet/flow/flow_report.lo
+  CC       vnet/lisp-cp/lisp_types.lo
+  CC       vnet/flow/flow_report_sample.lo
+  CC       vnet/lawful-intercept/node.lo
+  CC       vnet/sr/sr.lo
+  CC       vnet/lawful-intercept/lawful_intercept.lo
+  CC       vnet/dhcp/client.lo
+  CC       vnet/dhcpv6/proxy_node.lo
+  CC       vnet/dhcp/proxy_node.lo
+  CC       vnet/sr/sr_replicate.lo
+  CC       vnet/lisp-gpe/decap.lo
+  CC       vnet/pg/cli.lo
+  CC       vnet/pg/edit.lo
+  CC       vnet/pg/input.lo
+  CC       vnet/pg/output.lo
+  CC       vnet/pg/init.lo
+  CC       vnet/pg/stream.lo
+  CC       vnet/devices/ssvm/ssvm_eth.lo
+  CC       vnet/devices/ssvm/node.lo
+  CC       vnet/devices/af_packet/af_packet.lo
+  CC       vnet/devices/af_packet/device.lo
+  CC       vnet/devices/af_packet/node.lo
+  CC       vnet/devices/netmap/netmap.lo
+  CC       vnet/devices/af_packet/cli.lo
+  CC       vnet/devices/netmap/device.lo
+  CC       vnet/devices/netmap/node.lo
+  CC       vnet/devices/netmap/cli.lo
+  CC       vnet/unix/gdb_funcs.lo
+  CC       vnet/unix/pcap.lo
+  CC       vnet/lib-scv/scv_util.lo
+  CC       vnet/unix/pcap2pg.o
+  CC       vnet/plugin/p1.lo
+  CC       vnet/unix/tuntap.lo
+  CC       vnet/unix/tapcli.lo
+  CCLD     libvnetplugin.la
+  CCLD     libvnet.la
+copying selected object files to avoid basename conflicts...
+  CCLD     pcap2pg
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet'
+@@@@ Installing vnet @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet'
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libvnet.la libvnetplugin.la '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/plugin'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/plugin/plugin.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/plugin'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/dhcpv6'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcpv6/packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcpv6/proxy.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcpv6/proxy_error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/dhcpv6'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/osi'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/osi/osi.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/osi'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/gre'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/gre/gre.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/gre/packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/gre/error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/gre'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ipsec'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ipsec/ipsec.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ipsec/esp.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ipsec/ikev2.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ipsec/ikev2_priv.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ipsec'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/map'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/map/map.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/map/sixrd.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/map'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/api_errno.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/buffer.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/config.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/global_funcs.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/interface.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/interface_funcs.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l3_types.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/pipeline.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/replication.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/rewrite.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vnet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/for_mtcp.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dpdk_replication.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet'
+libtool: install: /usr/bin/install -c .libs/libvnet.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnet.so.0.0.0
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ppp'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ppp/error.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ppp/ppp.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ppp/packet.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ppp'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/cdp'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/cdp/cdp_protocol.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/cdp'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/vxlan-gpe'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vxlan-gpe/vxlan_gpe.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vxlan-gpe/vxlan_gpe_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vxlan-gpe/vxlan_gpe_error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/vxlan-gpe'
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64 && { ln -s -f libvnet.so.0.0.0 libvnet.so.0 || { rm -f libvnet.so.0 && ln -s libvnet.so.0.0.0 libvnet.so.0; }; })
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ip'
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64 && { ln -s -f libvnet.so.0.0.0 libvnet.so || { rm -f libvnet.so && ln -s libvnet.so.0.0.0 libvnet.so; }; })
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/adj_alloc.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/format.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/icmp46_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/icmp4.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/icmp6.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/igmp_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip4.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip4_mtrie.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip4_error.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip4_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip6.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip6_error.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip6_hop_by_hop.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip6_hop_by_hop_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip6_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/lookup.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ip_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/ports.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/protocols.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/tcp_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/udp.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/udp_error.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ip/udp_packet.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ip'
+libtool: install: /usr/bin/install -c .libs/libvnet.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnet.la
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lisp-gpe'
+libtool: install: /usr/bin/install -c .libs/libvnetplugin.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnetplugin.so.0.0.0
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-gpe/lisp_gpe.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-gpe/lisp_gpe_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-gpe/lisp_gpe_error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lisp-gpe'
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64 && { ln -s -f libvnetplugin.so.0.0.0 libvnetplugin.so.0 || { rm -f libvnetplugin.so.0 && ln -s libvnetplugin.so.0.0.0 libvnetplugin.so.0; }; })
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/mpls-gre'
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64 && { ln -s -f libvnetplugin.so.0.0.0 libvnetplugin.so || { rm -f libvnetplugin.so && ln -s libvnetplugin.so.0.0.0 libvnetplugin.so; }; })
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/mpls-gre/mpls.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/mpls-gre/packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/mpls-gre/error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/mpls-gre'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/llc'
+libtool: install: /usr/bin/install -c .libs/libvnetplugin.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnetplugin.la
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/llc/llc.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/llc'
+libtool: install: /usr/bin/install -c .libs/libvnet.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnet.a
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/l2'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/feat_bitmap.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_input.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_output.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_vtr.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_input_vtr.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_efp_filter.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_fwd.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_bd.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_bvi.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_flood.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_fib.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_rw.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_xcrw.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2/l2_classify.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/l2'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/pg'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/pg/pg.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/pg/edit.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/pg'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/devices/ssvm'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/devices/ssvm/ssvm_eth.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/devices/ssvm'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/flow'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/flow/flow_report.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/flow/ipfix_info_elements.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/flow/ipfix_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/flow/flow_report_sample.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/flow'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/vxlan'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vxlan/vxlan.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vxlan/vxlan_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/vxlan/vxlan_error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/vxlan'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/hdlc'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/hdlc/error.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/hdlc/hdlc.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/hdlc/packet.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/hdlc'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lisp-cp'
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnet.a
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-cp/lisp_types.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-cp/packets.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-cp/gid_dictionary.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-cp/lisp_cp_messages.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-cp/lisp_msg_serdes.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lisp-cp/control.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lisp-cp'
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnet.a
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/srp'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/srp/packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/srp/srp.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/srp'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/l2tp'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2tp/l2tp.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/l2tp/packet.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/l2tp'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/devices/af_packet'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/devices/af_packet/af_packet.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/devices/af_packet'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/cop'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/cop/cop.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/cop'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/devices/netmap'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/devices/netmap/netmap.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/devices/netmap'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/sr'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/sr/sr_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/sr/sr_error.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/sr/sr.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/sr'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/classify'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/classify/vnet_classify.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/classify/input_acl.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/classify'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lib-scv'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lib-scv/scv_util.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lib-scv/math64.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lib-scv'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/policer'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/policer/police.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/policer/policer.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/policer/fix_types.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/policer/xlate.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/policer'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/dhcp'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcp/client.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcp/packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcp/proxy.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/dhcp/proxy_error.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/dhcp'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lawful-intercept'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/lawful-intercept/lawful_intercept.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/lawful-intercept'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/unix'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/pcap.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tapcli.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/unix'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/snap'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/snap/snap.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/snap'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ethernet'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/arp_packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/error.def /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/ethernet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/packet.h /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/ethernet/types.def '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/include/vnet/ethernet'
+libtool: install: /usr/bin/install -c .libs/libvnetplugin.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnetplugin.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnetplugin.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64/libvnetplugin.a
+libtool: finish: PATH="/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin" ldconfig -n /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vnet/lib64
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vnet'
+@@@@ Configuring vpp in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp @@@@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether make supports nested variables... (cached) yes
+checking dependency style of gcc... gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+@@@@ Building vpp in /home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+  APIGEN   api/vpe.api.h
+  VERSION  app/version.h
+PLUGIN CONFIGURE  vpp_plugin_configure
+Output written to api/vpe.api.h
+make  all-am
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+PLUGIN CONFIGURE  vpp_plugin_configure
+  CC       vnet/main.lo
+  CC       app/vpe_cli.lo
+  CC       app/version.lo
+  CC       oam/oam.lo
+  CC       stats/stats.lo
+  CC       api/api.lo
+  CC       api/custom_dump.lo
+  CC       api/gmon.lo
+  CC       api/test_client.o
+  CC       api/test_ha.o
+  CC       api/summary_stats_client.o
+  CCLD     test_ha
+  CCLD     summary_stats_client
+  CCLD     test_client
+  CCLD     libvpp.la
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+@@@@ Installing vpp @@@@
+make[2]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+  VERSION  app/version.h
+PLUGIN CONFIGURE  vpp_plugin_configure
+make  install-am
+make[3]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+  VERSION  app/version.h
+PLUGIN CONFIGURE  vpp_plugin_configure
+  CC       app/version.lo
+  CCLD     libvpp.la
+make[4]: Entering directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+  VERSION  app/version.h
+PLUGIN CONFIGURE  vpp_plugin_configure
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/api'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/include'
+ /usr/bin/install -c -m 644 /home/lirujun/my_develop/vpp/build-data/../vpp/api/vpe.api '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/api'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/include/api'
+ /usr/bin/install -c -m 644  /home/lirujun/my_develop/vpp/build-data/../vpp/api/vpe_all_api_h.h /home/lirujun/my_develop/vpp/build-data/../vpp/api/vpe_msg_enum.h api/vpe.api.h '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/include/api'
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/bin'
+ /usr/bin/install -c vpp_plugin_configure '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/bin'
+  CC       app/version.lo
+  CCLD     libvpp.la
+ /bin/mkdir -p '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libvpp.la '/home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64'
+libtool: install: /usr/bin/install -c .libs/libvpp.so.0.0.0 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64/libvpp.so.0.0.0
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64 && { ln -s -f libvpp.so.0.0.0 libvpp.so.0 || { rm -f libvpp.so.0 && ln -s libvpp.so.0.0.0 libvpp.so.0; }; })
+libtool: install: (cd /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64 && { ln -s -f libvpp.so.0.0.0 libvpp.so || { rm -f libvpp.so && ln -s libvpp.so.0.0.0 libvpp.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvpp.lai /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64/libvpp.la
+libtool: install: /usr/bin/install -c .libs/libvpp.a /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64/libvpp.a
+libtool: install: chmod 644 /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64/libvpp.a
+libtool: install: ranlib /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64/libvpp.a
+libtool: finish: PATH="/home/lirujun/my_develop/vpp/build-root/tools/ccache-bin:/home/lirujun/my_develop/vpp/build-root/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin" ldconfig -n /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/lirujun/my_develop/vpp/build-root/install-vpp_lite_debug-native/vpp/lib64
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+make[3]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+make[2]: Leaving directory '/home/lirujun/my_develop/vpp/build-root/build-vpp_lite_debug-native/vpp'
+make[1]: Leaving directory '/home/lirujun/my_develop/vpp/build-root'

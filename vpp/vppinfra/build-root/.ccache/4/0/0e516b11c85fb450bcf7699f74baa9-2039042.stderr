@@ -1,0 +1,11 @@
+In file included from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mempool.h:77:0,
+                 from /home/lirujun/my_develop/mtcp//dpdk/include//rte_mbuf.h:58,
+                 from /home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:36:
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_memcpy.h:68:1: warning: ‘static’ attribute directive ignored [-Wattributes]
+ rte_memcpy(void *dst, const void *src, size_t n) __attribute__((always_inline));
+ ^
+/home/lirujun/my_develop/mtcp//dpdk/include//rte_memcpy.h:68:1: warning: ‘inline’ attribute directive ignored [-Wattributes]
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c: In function ‘tuntap_tx’:
+/home/lirujun/my_develop/vpp/build-data/../vnet/vnet/unix/tuntap.c:157:22: warning: unused variable ‘iov’ [-Wunused-variable]
+       struct iovec * iov;
+                      ^

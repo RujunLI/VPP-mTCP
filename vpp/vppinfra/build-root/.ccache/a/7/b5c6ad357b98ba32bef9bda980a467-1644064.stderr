@@ -1,0 +1,6 @@
+In file included from /home/lirujun/my_develop/mtcp/mtcp/src/include/socket.h:4:0,
+                 from /home/lirujun/my_develop/mtcp/mtcp/src/include/mtcp.h:14,
+                 from /home/lirujun/my_develop/vpp/build-data/../vlib/vlib/main.c:47:
+/home/lirujun/my_develop/mtcp/mtcp/src/include/mtcp_api.h:128:1: warning: inline function ‘mtcp_read’ declared but never defined
+ mtcp_read(mctx_t mctx, int sockid, char *buf, size_t len);
+ ^

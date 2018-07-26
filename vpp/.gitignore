@@ -1,0 +1,62 @@
+*~
+
+/build-root/.ccache
+/build-root/build-*/
+/build-root/install-*/
+/build-root/tools
+/build-root/dpdk-includes/
+/build-root/packages-vpp/
+/build-root/path_setup
+/build-root/build-config.mk
+/build-root/*.deb
+/build-root/*.rpm
+/build-root/*.changes
+/build-config.mk
+/vpp-api/python/vpp_papi/vpp_papi.py
+/dpdk/*.tar.gz
+/path_setup
+/tools/
+# start autotools ignore
+autom4te.cache/
+config/
+Makefile
+Makefile.in
+aclocal.m4
+app.info
+compile
+config.h
+config.h.in
+config.log
+config.guess
+config.sub
+config.status
+configure
+configure.scan
+coverage_report
+depcomp
+install-sh
+libtool
+m4
+missing
+stamp-h1
+ltmain.sh
+ylwrap
+test-driver
+
+.cproject
+*.iml
+.bootstrap.ok
+.settings
+# stop autotools ignore
+
+# OSX and some IDE 
+.DS_Store
+.idea/
+.project
+
+# cscope and ctags
+/cscope.*
+/tags
+
+# Generated documentation
+/build-root/docs
